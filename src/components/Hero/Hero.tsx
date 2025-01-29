@@ -271,7 +271,6 @@ const Hero: React.FC<HeroProps> = () => {
           smooth={true}
           duration={600}
           offset={10}
-          href="about"
           aria-label="about"
         >
           <Icon

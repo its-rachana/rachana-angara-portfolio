@@ -8,8 +8,6 @@ import { useEffect } from "react";
 
 export default function Home() {
   useEffect(() => {
-    // analytics;
-    // logEvent(getAnalytics(), "Home Page");
   }, []);
   return (
     <>
