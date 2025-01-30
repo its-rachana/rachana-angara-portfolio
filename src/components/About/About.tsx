@@ -4,6 +4,8 @@ import { Variants, motion } from "framer-motion";
 import React from "react";
 import styles from "../../styles/components/About.module.scss";
 type AboutProps = {};
+import { Element } from 'react-scroll';
+
 const containerVariants: Variants = {
   animate: {
     transition: {
