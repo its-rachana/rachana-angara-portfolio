@@ -143,23 +143,6 @@ const Right: React.FC<RightProps> = ({ mobile }) => {
           variants={itemVariants}
           className={`${styles.navbar_right_list_item}`}
         >
-          <a
-            onClick={() => {
-              if (SoundActive) {
-                playClick();
-              }
-              setNavState((prev) => ({ ...prev, open: false }));
-            }}
-            href={"/Docs/resume.pdf"}
-            target="_blank"
-          >
-            Resume
-          </a>
-        </motion.li>
-        <motion.li
-          variants={itemVariants}
-          className={`${styles.navbar_right_list_item}`}
-        >
           <ThemeToggler />
         </motion.li>
       </motion.ul>
