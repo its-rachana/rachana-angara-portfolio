@@ -7,6 +7,7 @@ import { Quicksand } from "next/font/google";
 import "../styles/GlobalStyles.scss";
 import styles from "../styles/Layout/MainLayout.module.scss";
 const quicksand = Quicksand({ subsets: ["latin"] });
+import { Analytics } from '@vercel/analytics/next';
 
 export default function RootLayout({
   children,
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body className={quicksand.className}>
         <main className={styles.layout}>
           <Providers>
+              <Analytics />
             <Navbar />
             <Links />
             {children}
