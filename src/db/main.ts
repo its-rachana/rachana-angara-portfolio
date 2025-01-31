@@ -4,14 +4,17 @@ import redditCloneImg from "../../public/images/ArtTrackTeamProject.png";
 import shawerrImg from "../../public/images/health&Fitness.png";
 import arabicPoetryImg from "../../public/images/FinTrackHomepage.png";
 import agileImg from "../../public/images/AgileSprintSimulatorHomepage.png"
+import downloadImg from "../../public/images/downloadResume.png";
+
 export const heroData = {
   img: myImage,
   hi: "Hello! I am",
   name: "Rachana Angara",
   expertise: ["Full Stack Developer"],
   about:
-    "I have a strong background in software development, encompassing static analysis, front-end design, user acceptance testing, and backend development.I improved code quality using SonarQube, developed responsive React interfaces, integrated RESTful APIs, and optimized performance. On the backend, I built robust solutions with Spring Boot, implemented secure APIs, and automated testing using Cucumber and Gherkin.Additionally, I integrated CI/CD pipelines with Jenkins, mentored teams on BDD principles, and collaborated within Agile teams to deliver scalable, high-quality software on time.",
-  btnText: "Get my resume",
+    "I am a passionate and results-driven software developer with a strong foundation in front-end and back-end development. Proficient in technologies like React, Java, Spring Boot, and RESTful APIs, I specialize in building responsive and scalable applications.With a dedication to continuous learning and innovation, I strive to develop high-quality solutions that enhance user experiences and drive business success.",
+  btnText: "Resume",
+  btnImg: downloadImg
 };
 
 export const aboutData = {

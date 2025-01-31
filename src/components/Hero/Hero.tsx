@@ -213,9 +213,12 @@ const Hero: React.FC<HeroProps> = () => {
               if (SoundActive) {
                 playClick();
               }
-              logEvent(getAnalytics(), `Resume hero`);
             }}
           >
+              <Image
+                  src={heroData.btnImg}
+                  alt={"downloadBtn"}
+              />
             {heroData.btnText}
           </motion.a>
         </motion.div>
