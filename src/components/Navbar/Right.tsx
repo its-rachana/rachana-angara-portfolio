@@ -136,7 +136,7 @@ const Right: React.FC<RightProps> = ({ mobile }) => {
             duration={600}
             offset={50}
           >
-            Contact
+            Wall of fame
           </Link>
         </motion.li>
         <motion.li

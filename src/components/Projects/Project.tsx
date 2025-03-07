@@ -101,7 +101,7 @@ const Project: React.FC<ProjectProps> = ({ data, index }) => {
               target="_blank"
             >
               <Icon icon={"ph:arrow-square-out-light"} />
-              Live
+              Github Link
             </motion.a>
           )}
         </div>

@@ -208,7 +208,7 @@ export const ProjectsData = {
       ],
       description:"ArtTrack is a web-based application that enhances artwork organization, retrieval, and analysis using semantic web technologies. It employs OWL, RDF, and SPARQL to link artworks with artists, cultural themes, and mediums. Built on CIDOC CRM ontology, it allows users to explore artworks by historical periods, styles, and metadata attributes. The system features a React.js frontend, a Flask backend, and a GraphDB-powered knowledge graph. Designed for museums, collectors, and researchers, ArtTrack improves access to cultural heritage data. Future plans include AI-driven insights, expanded datasets, and interactive visualizations for a richer experience.",
       demoUrl: "",
-      codeUrl: "https://github.com/its-rachana/reddit-clone",
+      codeUrl: "https://github.com/its-rachana/ArtTrack",
     },
   ],
 };
