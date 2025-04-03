@@ -10,9 +10,11 @@ export const heroData = {
   img: myImage,
   hi: "Hello! I am",
   name: "Rachana Angara",
-  expertise: ["Full Stack Developer"],
+  expertise: ["Software Engineer"],
   about:
-    "I am a passionate and results-driven software developer with a strong foundation in front-end and back-end development. Proficient in technologies like React, Java, Spring Boot, and RESTful APIs, I specialize in building responsive and scalable applications.With a dedication to continuous learning and innovation, I strive to develop high-quality solutions that enhance user experiences and drive business success.",
+    "Software engineer with a robust full stack background in React, Java, and REST APIs. Demonstrated ability to build scalable\n" +
+      "applications and enhance system performance while collaborating with cross-functional teams. Adept at both front-end and\n" +
+      "back-end development, committed to continuous learning and delivering innovative, high-quality solutions.",
   btnText: "Resume",
   btnImg: downloadImg
 };
